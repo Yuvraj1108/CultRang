@@ -105,7 +105,7 @@ large_popup[1].addEventListener("click", function(event) {
     page[3].style.display = "block";
     large_event_type[2].innerHTML = "Technical";
     large_event_name[0].innerHTML = "Race it out";
-    large_event_description[0].innerHTML = "To make a radio control electric car, to complete the given track in shortest time.";
+    large_event_description[0].innerHTML = "Program a remote controlled electric car  to complete the given track filled with hurdles like zig zag, fidgrt spinner, bumpy bump, draw bridge, etc. in the shortest possible time. Can you do it?";
     poster_img[0].src = "./images/raceitout.png";
     $(poster_img[0]).animate({height:"55vh",width:"45vh" },0,'linear');
 });
@@ -116,7 +116,7 @@ large_popup[2].addEventListener("click", function(event) {
     large_event_type[2].innerHTML = "Technical";
     large_event_name[0].innerHTML = "Line follower";
     large_event_description[0].innerHTML = "The challenge of the competition is to make a robot that can move on black lines on a white background and reach the finish as soon as possible. The participants must create an autonomous vehicle (hereafter ROBOT), that will move on the COMPETITION FIELD and do certain tasks.";
-    poster_img[0].src = "./images/soon.png";
+    poster_img[0].src = "./images/line.png";
 });
 large_popup[3].addEventListener("click", function(event) {
     click = 1;
@@ -124,7 +124,7 @@ large_popup[3].addEventListener("click", function(event) {
     page[3].style.display = "block";
     large_event_type[2].innerHTML = "Technical";
     large_event_name[0].innerHTML = "The Coding Triathlon";
-    large_event_description[0].innerHTML = "Coming Soon";
+    large_event_description[0].innerHTML = "A unique race of brains presented to you as a triathlon which will put your geeky skills to the real test. Do you have what it takes ?";
     poster_img[0].src = "./images/triathlon.png";
 });
 large_popup[4].addEventListener("click", function(event) {
@@ -133,8 +133,8 @@ large_popup[4].addEventListener("click", function(event) {
     page[3].style.display = "block";
     large_event_type[2].innerHTML = "Technical";
     large_event_name[0].innerHTML = "AI Gaming";
-    large_event_description[0].innerHTML = "Coming Soon";
-    poster_img[0].src = "./images/soon.png";
+    large_event_description[0].innerHTML = "The third world war will not be fought between humans but between the technologies of the superpowers of the world. Wanna experience how it feels to see artificial intelligence compete against each other, then join this AI Gaming event.";
+    poster_img[0].src = "./images/ai.png";
 });
 large_popup[5].addEventListener("click", function(event) {
     click = 1;
@@ -143,7 +143,7 @@ large_popup[5].addEventListener("click", function(event) {
     large_event_type[2].innerHTML = "Technical";
     large_event_name[0].innerHTML = "Chaos";
     large_event_description[0].innerHTML = "A market simulation game that generates enthusiasm in economics and gives practical examples of trading goods and services.";
-    poster_img[0].src = "./images/soon.png";
+    poster_img[0].src = "./images/chaos.png";
 });
 
 
@@ -157,6 +157,7 @@ large_popup2[0].addEventListener("click", function(event) {
     large_event_name[0].innerHTML = "Tamasha";
     large_event_description[0].innerHTML = "Who needs a stage when you can perform on the streets? Street plays are a powerful means to create awareness and bring about a change in society. Connect with common man by enthralling the crowd with your performance, bring the Dramebaaz inside you at the Cult Rang’s street play - Tamasha <br> Be the change you want to see!";
     poster_img[0].src = "./images/tamasha.jpg";
+    $(poster_img[0]).animate({height:"55vh",width:"65vh" },0,'linear');
     
 });
 large_popup2[1].addEventListener("click", function(event) {
@@ -174,7 +175,7 @@ large_popup2[2].addEventListener("click", function(event) {
     page[3].style.display = "block";
     large_event_type[2].innerHTML = "Cultural";
     large_event_name[0].innerHTML = "Cascading Amps";
-    large_event_description[0].innerHTML = "Transfix the crowd with an energetic performance with music booming in their ears long after you stop entertaining and the show ends! Get your vocal chords and your band ready for a mesmerizing musical night because, without music, life would be a mistake! <br>See you at Cult Rang’s band competition Cascadic Amps.t";
+    large_event_description[0].innerHTML = "Transfix the crowd with an energetic performance with music booming in their ears long after you stop entertaining and the show ends! Get your vocal chords and your band ready for a mesmerizing musical night because, without music, life would be a mistake! <br>See you at Cult Rang’s band competition Cascadic Amps.";
     poster_img[0].src = "./images/cascadingamps.png";
 });
 large_popup2[3].addEventListener("click", function(event) {
@@ -210,8 +211,8 @@ large_popup2[6].addEventListener("click", function(event) {
     page[3].style.display = "block";
     large_event_type[2].innerHTML = "Cultural";
     large_event_name[0].innerHTML = "Bellas Artes";
-    large_event_description[0].innerHTML = "Many Interesting events like Tshirt painting, sketching etc.";
-    poster_img[0].src = "./images/soon.png";
+    large_event_description[0].innerHTML = "Consists of many artistic events ranging from Tee Painting, Live Sketching, Unbrush, Blind Art, Face Painting.";
+    poster_img[0].src = "./images/artevents.png";
 });
 large_popup2[7].addEventListener("click", function(event) {
     click = 2;
@@ -219,8 +220,8 @@ large_popup2[7].addEventListener("click", function(event) {
     page[3].style.display = "block";
     large_event_type[2].innerHTML = "Cultural";
     large_event_name[0].innerHTML = "Symphony";
-    large_event_description[0].innerHTML = "Ever been caught for humming inside the classroom? Ever lost yourself singing while taking a shower?<br>Here comes a platform where you can sing your heart and soul aloud.<br>We invite you to participate in the solo singing competition at CultRang.";
-    poster_img[0].src = "./images/solosinging.png";
+    large_event_description[0].innerHTML = "Ever been caught for humming inside the classroom? Ever lost yourself singing while taking a shower?<br>Here comes a platform where you can sing your heart and soul aloud.<br>We invite you to participate in the solo-duo singing competition at CultRang.";
+    poster_img[0].src = "./images/symphony.png";
 });
 large_popup2[8].addEventListener("click", function(event) {
     click = 2;
@@ -228,8 +229,8 @@ large_popup2[8].addEventListener("click", function(event) {
     page[3].style.display = "block";
     large_event_type[2].innerHTML = "Cultural";
     large_event_name[0].innerHTML = "Debate";
-    large_event_description[0].innerHTML = "Coming Soon";
-    poster_img[0].src = "./images/soon.png";
+    large_event_description[0].innerHTML = "For those who don't merely speak but, assert For those who don't just carry an opinion but, stamp it For those who don't just have a say but, deliver the verdict. If you have the gift of the gab, we present before you a stage and a worthy opponent.";
+    poster_img[0].src = "./images/debate.png";
 });
 large_popup2[9].addEventListener("click", function(event) {
     click = 2;
@@ -237,8 +238,8 @@ large_popup2[9].addEventListener("click", function(event) {
     page[3].style.display = "block";
     large_event_type[2].innerHTML = "Cultural";
     large_event_name[0].innerHTML = "Online Literary Events";
-    large_event_description[0].innerHTML = "Coming Soon";
-    poster_img[0].src = "./images/soon.png";
+    large_event_description[0].innerHTML = "If creativity for you is integral to your existence. If words for you are an expression of your soul. If the pen is a gateway to your imagination. And if your hand-crafted fantasies mesmerize all and sundry, then creative writing at Cultrang is for you.";
+    poster_img[0].src = "./images/lit.png";
 });
 large_popup2[10].addEventListener("click", function(event) {
     click = 2;
@@ -257,16 +258,16 @@ large_popup2[11].addEventListener("click", function(event) {
     large_event_type[2].innerHTML = "Cultural";
     large_event_name[0].innerHTML = "Behind The Scenes";
     large_event_description[0].innerHTML = "'If it can be written or thought, it can be filmed.'<br> Time to unleash the actor/director/screenplay writer in you in the CultRang's 40 hours Film Making competition - Behind the Scenes";
-    poster_img[0].src = "./images/soon.png";
+    poster_img[0].src = "./images/40hrfilm.png";
 });
 large_popup2[12].addEventListener("click", function(event) {
     click = 2;
     page[2].style.display = "none";
     page[3].style.display = "block";
     large_event_type[2].innerHTML = "Cultural";
-    large_event_name[0].innerHTML = "Film War";
-    large_event_description[0].innerHTML = "Coming Soon";
-    poster_img[0].src = "./images/soon.png";
+    large_event_name[0].innerHTML = "Film Wars";
+    large_event_description[0].innerHTML = "“You shouldn't dream your film, you should make it!” - Steven Spielberg<br> We live in a box of space and time. Movies are windows in its walls. They allow us to enter other minds, not simply in the sense of identifying with the characters, although that is an important part of it, but by seeing the world as another person sees it.  Do you often find yourself immersed in this world? If Yes? Then participate in this competition.<br> Theme: Justice";
+    poster_img[0].src = "./images/film.png";
 });
 large_popup2[13].addEventListener("click", function(event) {
     click = 2;
@@ -274,8 +275,9 @@ large_popup2[13].addEventListener("click", function(event) {
     page[3].style.display = "block";
     large_event_type[2].innerHTML = "Cultural";
     large_event_name[0].innerHTML = "Designer Hunt";
-    large_event_description[0].innerHTML = "Coming Soon";
-    poster_img[0].src = "./images/soon.png";
+    large_event_description[0].innerHTML = "It is time to buckle up and exercise your minds, to give the best you can.<br>Leaving the doors to creativity open, we invite all the illustrators & graphic designers to this poster making competition. <br>Theme- Break The Stigma";
+    poster_img[0].src = "./images/designer_hunt.png";
+    $(poster_img[0]).animate({height:"55vh",width:"65vh" },0,'linear');
 });
 // eachpopup ends
 
